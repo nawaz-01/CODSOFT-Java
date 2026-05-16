@@ -1,3 +1,10 @@
+// This program implements a number guessing game where the user tries to guess a randomly generated number within a specified range and limited attempts based on the chosen difficulty level. The game keeps track of the user's high score (the fewest attempts needed to guess correctly) and allows for multiple rounds of play.
+// The user can select from three difficulty levels: Easy (30 attempts), Medium (20 attempts), and Hard (10 attempts). The program provides feedback on whether the user's guess is too high, too low, or correct. After each round, the user is prompted to play again, and the game continues until the user decides to stop playing.
+// The program also includes input validation to ensure that the user enters valid integers for their guesses and difficulty selection, enhancing the overall user experience.
+// The game is designed to be engaging and encourages users to improve their guessing skills while having fun.
+
+
+
 import java.util.Random;
 import java.util.Scanner;
 
