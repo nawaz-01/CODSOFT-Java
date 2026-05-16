@@ -1,3 +1,13 @@
+// This program calculates the total marks, average percentage, and grade based on user input for multiple subjects.
+// The user is prompted to enter the number of subjects and the marks for each subject. The program then computes the total marks, average percentage, and assigns a grade based on the average percentage.
+// The grading system is as follows:
+// A+ : 90% and above
+// A  : 80% to 89%
+// B  : 70% to 79%
+// C  : 60% to 69%
+// D  : 50% to 59%
+// F  : Below 50%
+
 import java.util.Scanner;
 
 public class Project_02 {
